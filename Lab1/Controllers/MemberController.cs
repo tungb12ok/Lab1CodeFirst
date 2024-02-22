@@ -1,4 +1,4 @@
-﻿using Lab1.Models;
+﻿using DataAccess.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lab1.Controllers

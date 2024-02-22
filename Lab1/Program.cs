@@ -7,7 +7,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache(); // This is for development, for production consider using a distributed cache
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Adjust the timeout as needed
+    options.IdleTimeout = TimeSpan.FromMinutes(3000); // Adjust the timeout as needed
 });
 
 var app = builder.Build();

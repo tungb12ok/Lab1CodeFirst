@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 
-namespace Lab1.Models
+namespace DataAccess.Models
 {
     public partial class FPTStoreContext : DbContext
     {

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Lab1.Models;
+using DataAccess.Models;
 
 namespace Lab1.Controllers
 {
